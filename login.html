@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <!-- Preload font for better performance -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <script src="script/auth.js"></script>
+    <title>Login | RISKNHI</title>
+</head>
+
+<body>
+    <div class="app-container responsive-split">
+        <header>
+            <h1 class="branding-title">Welcome to&nbsp;RISKNHI</h1>
+        </header>
+
+        <section class="branding-section">
+            <h1 class="branding-title">Welcome to&nbsp;RISKNHI</h1>
+        </section>
+
+        <main class="register-form">
+
+            <div class="form-group">
+                <input type="text" class="text-input" placeholder="Username" id="username">
+            </div>
+
+            <div class="form-group">
+                <input type="password" class="text-input" placeholder="Password" id="password">
+            </div>
+
+            <p class="incor-pass" id="incorrectAlert" role="alert">Incorrect password</p>
+
+            <button class="main-btn" type="submit" onclick="login()">LOGIN</button>
+
+            <div class="register-link">
+                Don't have an account? <a href="register">Sign up now.</a>
+            </div>
+        </main>
+
+    </div>
+</body>
+
+</html>
