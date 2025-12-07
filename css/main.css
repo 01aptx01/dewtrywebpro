@@ -168,6 +168,7 @@ header {
     position: relative;
     overflow: hidden;
     animation: fadeIn 1s ease-out;
+    gap: 20px;
 }
 
 /* Subtle decoration */
@@ -185,7 +186,6 @@ header {
 .form-group {
     position: relative;
     width: 100%;
-    margin-bottom: 20px;
 }
 
 .text-input {
@@ -215,7 +215,6 @@ header {
 .main-btn {
     display: block;
     width: 100%;
-    margin-top: 15px;
     padding: 16px 0;
     background: var(--btn-gradient);
     background-size: 200% auto;
@@ -252,10 +251,16 @@ header {
 }
 
 .register-link {
-    margin-top: 25px;
     text-align: center;
     font-size: 14px;
     color: var(--text-muted);
+}
+
+.forgot-pass {
+    margin-top: -10px;
+    text-align: left;
+    font-size: 14px;
+    color: #11998e;
 }
 
 /* --- Cards --- */
